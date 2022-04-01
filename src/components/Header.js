@@ -21,8 +21,10 @@ function Header() {
   const classes = useStyles();
 
   return (
-    <div className={classes.headerBackground}>
-      <div className={classes.headerTitle}>To Do List App</div>
+    <div data-cy="header-background" className={classes.headerBackground}>
+      <div data-cy="header-title" className={classes.headerTitle}>
+        To Do List App
+      </div>
     </div>
   );
 }
